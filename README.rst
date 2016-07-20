@@ -6,7 +6,8 @@ Pika是 RabbitMQ (AMQP-0-9-1)服务器客户端程序的Python实现。
 
 |Version| |Downloads| |Status| |Coverage| |License| |Docs|
 
-Introduction</br>
+Introduction
+
 简介
 -------------
 Pika is a pure-Python implementation of the AMQP 0-9-1 protocol including RabbitMQ's
