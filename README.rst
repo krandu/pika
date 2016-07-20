@@ -2,21 +2,29 @@ Pika
 ====
 Pika is a RabbitMQ (AMQP-0-9-1) client library for Python.</br>
 
-Pika是 RabbitMQ (AMQP-0-9-1)服务器客户端 的Python实现。
+Pika是 RabbitMQ (AMQP-0-9-1)服务器客户端程序的Python实现。
 
 |Version| |Downloads| |Status| |Coverage| |License| |Docs|
 
-Introduction
+Introduction</br>
+简介
 -------------
 Pika is a pure-Python implementation of the AMQP 0-9-1 protocol including RabbitMQ's
 extensions.
 
+Pika 使用Python实现了AMQP 0-9-1协议并且包含针对RabbitMQ服务器的扩展。
+
 - Python 2.6+ and 3.3+ are supported.
+
+- 支持Python 2.6及以上和3.6及以上版本
 
 - Since threads aren't appropriate to every situation, it doesn't
   require threads. It takes care not to forbid them, either. The same
   goes for greenlets, callbacks, continuations and generators. It is
   not necessarily thread-safe however, and your mileage will vary.
+
+- 每个解决方案引入线程的方式并不一定合适，因此Pika不要求线程，也不禁止使用线程。同时，其它的方法包括并发, 回调,  长连接和协程.它不保证线程安全，因此需要选择适合自己的。
+
 
 - People may be using direct sockets, plain old `select()`,
   or any of the wide variety of ways of getting network events to and from a
