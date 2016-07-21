@@ -44,6 +44,7 @@ Here is the most simple example of use, sending a message with the BlockingConne
     connection.close()
 
 And an example of writing a blocking consumer:
+处理上面生产者程序发送的消息（消费者）：
 
 .. code :: python
 
@@ -53,15 +54,18 @@ And an example of writing a blocking consumer:
 
     for method_frame, properties, body in channel.consume('test'):
 
-        # Display the message parts and ack the message
+        # Display the message parts and ack the message.
+        #显示消息部分，并且进行回复（保证服务器端安全删除
         print(method_frame, properties, body)
         channel.basic_ack(method_frame.delivery_tag)
 
         # Escape out of the loop after 10 messages
+        # 接收10条消息后跳出循环
         if method_frame.delivery_tag == 10:
             break
 
     # Cancel the consumer and return any pending messages
+    #关闭连接并且输出挂起消息
     requeued_messages = channel.cancel()
     print('Requeued %i messages' % requeued_messages)
     connection.close()
