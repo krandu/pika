@@ -43,6 +43,7 @@ Pika's documentation can be found at `https://pika.readthedocs.org <https://pika
 Pika 官方文档地址 `https://pika.readthedocs.org <https://pika.readthedocs.org>`_
 
 Example
+
 -------
 Here is the most simple example of use, sending a message with the BlockingConnection adapter:
 这里是一个非常简单的例子，使用BlockingConnection适配器发送了一个消息(生产者)：
