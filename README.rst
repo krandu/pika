@@ -24,7 +24,7 @@ Pika 使用Python实现了AMQP 0-9-1协议并且包含针对RabbitMQ服务器的
   goes for greenlets, callbacks, continuations and generators. It is
   not necessarily thread-safe however, and your mileage will vary.
 
-- 每个解决方案引入线程的方式并不一定合适，因此Pika不要求线程，也不禁止使用线程。同时，其它的方    法包括并发, 回调,  长连接和协程.它不保证线程安全，因此需要选择适合自己的。
+- 每个解决方案引入线程的方式并不一定合适，因此Pika不要求线程，也不禁止使用线程。同时，其它的方法包括并发,回调,长连接和协程 它不保证线程安全，因此需要选择适合自己的。
 
 
 - People may be using direct sockets, plain old `select()`,
@@ -32,7 +32,7 @@ Pika 使用Python实现了AMQP 0-9-1协议并且包含针对RabbitMQ服务器的
   python application. Pika tries to stay compatible with all of these, and to
   make adapting it to a new environment as simple as possible.
 
--对于在老版本的Python应用程序中使用的sockets，select(),                                          或者各种各样的网络事件，Pika尽可能的兼容他们，并且在新的环境中使用尽量简单。
+- 对于在老版本的Python应用程序中使用的sockets，select或者各种各样的网络事件，Pika尽可能的兼容他们，并且在新的环境中使用尽量简单。
 
 Documentation
 
@@ -44,7 +44,6 @@ Pika 官方文档地址 `https://pika.readthedocs.org <https://pika.readthedocs.
 Example
 
 例子
-
 -------
 Here is the most simple example of use, sending a message with the BlockingConnection adapter:
 
