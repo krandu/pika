@@ -83,23 +83,35 @@ And an example of writing a blocking consumer:
     connection.close()
 
 Pika provides the following adapters
+
+Pika提供了一下适配器
 ------------------------------------
 
 - BlockingConnection - enables blocking, synchronous operation on top of library for simple uses
+- BlockingConnection - 会造成阻塞 最简单的一种同步操作应用库的方式
 - LibevConnection    - adapter for use with the libev event loop http://libev.schmorp.de
-- SelectConnection   - fast asynchronous adapter
+- LibevConnection    - 适配器使用了libev的事件循环
+- SelectConnection   - fast asynchronous adapterlibev loop http://libev.schmorp.de
+- SelectConnection   - 快速异步适配libev循环 http://libev.schmorp.de
 - TornadoConnection  - adapter for use with the Tornado IO Loop http://tornadoweb.org
+- TornadoConnection  - 适配器使用了Tornado的IO循环
 - TwistedConnection  - adapter for use with the Twisted asynchronous package http://twistedmatrix.com/
+- TwistedConnection  - 适配器使用了Twisted的异步
 
 Contributing
+
+公约
 ------------
 To contribute to pika, please make sure that any new features or changes
 to existing functionality **include test coverage**.
+为了保证Pika，请确保任何新功能添加或改变现有功能包括单元测试。
 
 *Pull requests that add or change code without coverage will most likely be rejected.*
+*合并请求时增加和改变有可能被接受，纯粹的覆盖最有可能被拒绝*
 
 Additionally, please format your code using `yapf <http://pypi.python.org/pypi/yapf>`_
 with ``google`` style prior to issuing your pull request.
+此外，在推送之前请用`yapf <http://pypi.python.org/pypi/yapf>`_格式化你的代码，生成满足``google``风格的代码。
 
 .. |Version| image:: https://img.shields.io/pypi/v/pika.svg?
    :target: http://badge.fury.io/py/pika
