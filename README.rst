@@ -2,6 +2,7 @@ Pika
 ====
 Pika is a RabbitMQ (AMQP-0-9-1) client library for Python.
 
+
 |Version| |Downloads| |Status| |Coverage| |License| |Docs|
 
 Introduction
@@ -28,6 +29,7 @@ Pika's documentation can be found at `https://pika.readthedocs.org <https://pika
 Example
 -------
 Here is the most simple example of use, sending a message with the BlockingConnection adapter:
+这里是一个非常简单的例子，使用BlockingConnection适配器发送了一个消息(生产者)：
 
 .. code :: python
 
