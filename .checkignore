@@ -1,5 +1,7 @@
+#忽略检查
 **/docs
 **/examples
 **/test
 **/utils
 setup.py
+

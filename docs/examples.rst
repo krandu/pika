@@ -3,6 +3,8 @@ Usage Examples
 
 Pika has various methods of use, between the synchronous BlockingConnection adapter and the various asynchronous connection adapter. The following examples illustrate the various ways that you can use Pika in your projects.
 
+Pika有很多种使用方法，包括BlockingConnection适配器和各种异步连接适配器之间。下面的例子说明，你可以在你的项目中使用Pika的各种方法。
+
 .. toctree::
    :glob:
    :maxdepth: 1
