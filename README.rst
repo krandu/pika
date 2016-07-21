@@ -30,12 +30,10 @@ Pika 使用Python实现了AMQP 0-9-1协议并且包含针对RabbitMQ服务器的
   or any of the wide variety of ways of getting network events to and from a
   python application. Pika tries to stay compatible with all of these, and to
   make adapting it to a new environment as simple as possible.
-<<<<<<< HEAD
 
 - 对于在老版本的Python应用程序中使用的sockets，select(),                                          或者各种各样的网络事件，Pika尽可能的兼容他们，并且在新的环境中使用尽量简单。
 =======
 - 对于在老版本的Python应用程序中使用的sockets，select或者各种各样的网络事件，Pika尽可能的兼容他们，并且在新的环境中使用尽量简单。
->>>>>>> origin/master
 
 Documentation
 
