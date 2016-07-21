@@ -114,7 +114,7 @@ to existing functionality **include test coverage**.
 Additionally, please format your code using `yapf <http://pypi.python.org/pypi/yapf>`_
 with ``google`` style prior to issuing your pull request.
 
-此外，在推送之前请用`yapf <http://pypi.python.org/pypi/yapf>`_ 格式化你的代码，生成满足``google``风格的代码。
+此外，在推送之前请用 `yapf <http://pypi.python.org/pypi/yapf>`_ 格式化你的代码，生成满足``google``风格的代码。
 
 .. |Version| image:: https://img.shields.io/pypi/v/pika.svg?
    :target: http://badge.fury.io/py/pika
