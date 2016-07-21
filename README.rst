@@ -33,9 +33,7 @@ Pika 使用Python实现了AMQP 0-9-1协议并且包含针对RabbitMQ服务器的
 - 对于在老版本的Python应用程序中使用的sockets，select或者各种各样的网络事件，Pika尽可能的兼容他们，并且在新的环境中使用尽量简单。
 
 Documentation
-
 文档
-
 -------------
 Pika's documentation can be found at `https://pika.readthedocs.org <https://pika.readthedocs.org>`_
 Pika 官方文档地址 `https://pika.readthedocs.org <https://pika.readthedocs.org>`_
