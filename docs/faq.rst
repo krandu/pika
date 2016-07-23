@@ -26,7 +26,7 @@ FAQ
 
     Yes, Pika's mailing list is available `on Google Groups <https://groups.google.com/forum/?fromgroups#!forum/pika-python>`_ and the email address is pika-python@googlegroups.com, though traditionally questions about Pika have been asked on the `RabbitMQ-Discuss mailing list <http://lists.rabbitmq.com/cgi-bin/mailman/listinfo/rabbitmq-discuss>`_.
 
-    有的，在 `谷歌论坛 <https://groups.google.com/forum/?fromgroups#!forum/pika-python>`_  上我们有一个活跃的邮件列表，地址是 pika-python@googlegroups.com,一些常见的关于Pika的问题已经在`RabbitMQ-Discuss mailing list <http://lists.rabbitmq.com/cgi-bin/mailman/listinfo/rabbitmq-discuss>`_ 上讨论过。
+    有的，在 `谷歌论坛 <https://groups.google.com/forum/?fromgroups#!forum/pika-python>`_  上我们有一个活跃的邮件列表，地址是 pika-python@googlegroups.com,一些常见的关于Pika的问题已经在 `RabbitMQ-Discuss mailing list <http://lists.rabbitmq.com/cgi-bin/mailman/listinfo/rabbitmq-discuss>`_ 上讨论过。
 >>>>>>> origin/master
 
 - How can I contribute to Pika?
@@ -35,4 +35,4 @@ FAQ
 
     You can `fork the project on Github <http://help.github.com/forking/>`_ and issue `Pull Requests <http://help.github.com/pull-requests/>`_ when you believe you have something solid to be added to the main repository.
 
-    你可以在`Github fork Pika <http://help.github.com/forking/>`_  然后 `Pull Requests <http://help.github.com/pull-requests/>`_ , 当你相信你已经解决了一个问题的时候，你可以发起一个合并请求将你的更改合并到主分支。
+    你可以在 `Github fork Pika <http://help.github.com/forking/>`_  然后 `Pull Requests <http://help.github.com/pull-requests/>`_ , 当你相信你已经解决了一个问题的时候，你可以发起一个合并请求将你的更改合并到主分支。
