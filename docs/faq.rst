@@ -26,7 +26,8 @@ FAQ
 
     Yes, Pika's mailing list is available `on Google Groups <https://groups.google.com/forum/?fromgroups#!forum/pika-python>`_ and the email address is pika-python@googlegroups.com, though traditionally questions about Pika have been asked on the `RabbitMQ-Discuss mailing list <http://lists.rabbitmq.com/cgi-bin/mailman/listinfo/rabbitmq-discuss>`_.
 
-    有的，在`谷歌论坛 <https://groups.google.com/forum/?fromgroups#!forum/pika-python>`上我们有一个活跃的邮件列表，地址是 pika-python@googlegroups.com,一些常见的关于Pika的问题已经在 `RabbitMQ-Discuss mailing list <http://lists.rabbitmq.com/cgi-bin/mailman/listinfo/rabbitmq-discuss>`_ 上讨论过。
+    有的，在`谷歌论坛 <https://groups.google.com/forum/?fromgroups#!forum/pika-python>`_  上我们有一个活跃的邮件列表，地址是 pika-python@googlegroups.com,一些常见的关于Pika的问题已经在`RabbitMQ-Discuss mailing list <http://lists.rabbitmq.com/cgi-bin/mailman/listinfo/rabbitmq-discuss>`_ 上讨论过。
+>>>>>>> origin/master
 
 - How can I contribute to Pika?
 
