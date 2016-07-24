@@ -42,7 +42,6 @@ Example::
         connection.ioloop.start()
 
 .. _intro_to_cps:
-
 Continuation-Passing Style
 
 接上部分
