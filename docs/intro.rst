@@ -48,4 +48,10 @@ Continuation-Passing Style
 接上部分
 
 --------------------------
+Interfacing with Pika asynchronously is done by passing in callback methods you would like to have invoked when a certain event has completed. For example, if you are going to declare a queue, you pass in a method that will be called when the RabbitMQ server returns a `Queue.DeclareOk <http://www.rabbitmq.com/amqp-0-9-1-quickref.html#queue.declare>`_ response.
 
+在异步连接中Pika是通过回调接口完成事件处理。例如，如果声明一个queue，声明的方法将会在 RabbitMQ 服务器返回一个 `Queue.DeclareOk <http://www.rabbitmq.com/amqp-0-9-1-quickref.html#queue.declare>`_ 响应的时候调用.
+
+In our example below we use the following four easy steps:
+
+在我们的例子中我们用了下面的四个简单步骤:
