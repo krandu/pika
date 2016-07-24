@@ -1,7 +1,11 @@
 Introduction to Pika
+
+Pika 简介
 ====================
 
 IO and Event Looping
+
+IO和事件循环
 --------------------
 As AMQP is a two-way RPC protocol where the client can send requests to the server and the server can send requests to a client, Pika implements or extends IO loops in each of its asynchronous connection adapters. These IO loops are blocking methods which loop and listen for events. Each asynchronous adapters follows the same standard for invoking the IO loop. The IO loop is created when the connection adapter is created. To start an IO loop for any given adapter, call the ``connection.ioloop.start()`` method.
 
