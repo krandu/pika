@@ -194,5 +194,3 @@ Example::
 .. rubric:: 脚注
 
 .. [#f1] "more effective flow control mechanism that does not require cooperation from clients and reacts quickly to prevent the broker from exhausing memory - see http://www.rabbitmq.com/extensions.html#memsup" from http://lists.rabbitmq.com/pipermail/rabbitmq-announce/attachments/20100825/2c672695/attachment.txt
-
-.. [#f1] "更有效的内存管理，不需要依赖客户端控制，有更有效的流动控制机制防止数据从内存溢出。请看 - see http://www.rabbitmq.com/extensions.html#memsup" from http://lists.rabbitmq.com/pipermail/rabbitmq-announce/attachments/20100825/2c672695/attachment.txt
