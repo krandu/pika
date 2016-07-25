@@ -9,6 +9,7 @@ FAQ
 
     Pika does not have any notion of threading in the code. If you want to use Pika with threading, make sure you have a Pika connection per thread, created in that thread. It is not safe to share one Pika connection across threads.
 
+
 - How do I report a bug with Pika?
 
     The `main Pika repository <https://github.com/pika/pika>`_ is hosted on `Github <https://github.com>`_ and we use the Issue tracker at `https://github.com/pika/pika/issues <https://github.com/pika/pika/issues>`_.
