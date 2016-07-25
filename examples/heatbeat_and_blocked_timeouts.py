@@ -2,6 +2,8 @@
 This example demonstrates explicit setting of heartbeat and blocked connection
 timeouts.
 
+这个例子设置了连接时间和超时时间。
+
 Starting with RabbitMQ 3.5.5, the broker's default hearbeat timeout decreased
 from 580 seconds to 60 seconds. As a result, applications that perform lengthy
 processing in the same thread that also runs their Pika connection may
