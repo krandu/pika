@@ -1,6 +1,10 @@
 Asynchronous consumer example
 =============================
+异步消费者
+=============================
 The following example implements a consumer that will respond to RPC commands sent from RabbitMQ. For example, it will reconnect if RabbitMQ closes the connection and will shutdown if RabbitMQ cancels the consumer or closes the channel. While it may look intimidating, each method is very short and represents a individual actions that a consumer can do.
+
+下面的例子实现消费者，它会响应从RabbitMQ服务器发送来的一个RPC命令。在例子中，如果RabbitMQ 关闭连接、RabbitMQ撤销消费者或者关闭通道程序都会退出。看起来代码非常多，但是每个方法都很短并且都表示了一个消费者可以做的一个动作。
 
 consumer.py::
 
