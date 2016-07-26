@@ -15,6 +15,9 @@ def on_open(connection):
 
 
 def on_channel_open(channel):
+    '''
+        对接收到的消息进行计数
+    '''
     global published
     channel.confirm_delivery(on_delivery_confirmation)
     for iteration in xrange(0, ITERATIONS):
