@@ -13,17 +13,19 @@ def on_message(channel, method_frame, header_frame, body):
         print("Message body", body)
 
     channel.basic_ack(delivery_tag=method_frame.delivery_tag)
-
+#认证
 credentials = pika.PlainCredentials('guest', 'guest')
 parameters =  pika.ConnectionParameters('localhost', credentials=credentials)
 connection = pika.BlockingConnection(parameters)
 
 channel = connection.channel()
+#申请交换分区
 channel.exchange_declare(exchange="test_exchange", exchange_type="direct", passive=False, durable=True, auto_delete=False)
+#申请队列
 channel.queue_declare(queue="standard", auto_delete=True)
 channel.queue_bind(queue="standard", exchange="test_exchange", routing_key="standard_key")
 channel.basic_qos(prefetch_count=1)
-
+#注册回调
 channel.basic_consume(on_message, 'standard')
 
 try:

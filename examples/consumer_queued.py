@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+#消费者队列
 
 import pika
 import json
@@ -7,17 +8,19 @@ import threading
 
 
 buffer = []
+#创建锁
 lock = threading.Lock()
 
 print('pika version: %s' % pika.__version__)
 
-
 connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
 
+#创建了三个通道
 main_channel     = connection.channel()
 consumer_channel = connection.channel()
 bind_channel     = connection.channel()
 
+#根据不同的版本申请交换分区
 if pika.__version__=='0.9.5':
     main_channel.exchange_declare(exchange='com.micex.sten',       type='direct')
     main_channel.exchange_declare(exchange='com.micex.lasttrades', type='direct')
