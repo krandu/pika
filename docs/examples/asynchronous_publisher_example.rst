@@ -5,7 +5,7 @@ Asynchronous publisher example
 
 The following example implements a publisher that will respond to RPC commands sent from RabbitMQ and uses delivery confirmations. It will reconnect if RabbitMQ closes the connection and will shutdown if RabbitMQ closes the channel. While it may look intimidating, each method is very short and represents a individual actions that a publisher can do.
 
-The following example implements a publisher that will respond to RPC commands sent from RabbitMQ and uses delivery confirmations. It will reconnect if RabbitMQ closes the connection and will shutdown if RabbitMQ closes the channel. While it may look intimidating, each method is very short and represents a individual actions that a publisher can do.
+这个例子实现了一个生产者例子 RabbitMQ响应接收到的RPC命令、生产者进行接收确认。如果RabbitMQ关闭了连接应用程序将退出、如果RabbitMQ关闭了信道他将会重新连接。看起来代码非常多，但是每个方法都非常短 都代表一个生产者独立的行为。
 publisher.py::
 
     # -*- coding: utf-8 -*-
@@ -354,6 +354,9 @@ publisher.py::
         logging.basicConfig(level=logging.DEBUG, format=LOG_FORMAT)
 
         # Connect to localhost:5672 as guest with the password guest and virtual host "/" (%2F)
+
+        #以guest用户guest密码连接到 localhost:5672 地址的虚拟主机 "/" (%2F)
+
         example = ExamplePublisher('amqp://guest:guest@localhost:5672/%2F?connection_attempts=3&heartbeat_interval=3600')
         example.run()
 
