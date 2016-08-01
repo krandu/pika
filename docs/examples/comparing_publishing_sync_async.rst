@@ -1,5 +1,7 @@
 Comparing Message Publishing with BlockingConnection and SelectConnection
 =========================================================================
+用 BlockingConnection and SelectConnection作为生产者对比
+=========================================================================
 
 For those doing simple, non-asynchronous programing, :py:meth:`pika.adapters.blocking_connection.BlockingConnection` proves to be the easiest way to get up and running with Pika to publish messages.
 
