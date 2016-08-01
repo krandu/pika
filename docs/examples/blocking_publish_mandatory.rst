@@ -1,5 +1,7 @@
 Ensuring message delivery with the mandatory flag
 =================================================
+用消息标志确保消息正确传输
+=================================================
 
 The following example demonstrates how to check if a message is delivered by setting the mandatory flag and checking the return result when using the BlockingConnection::
 
