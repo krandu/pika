@@ -1,6 +1,10 @@
 Direct reply-to example
 ==============================
+直接回复的例子
+==============================
 The following example demonstrates the use of the RabbitMQ "Direct reply-to" feature via `pika.BlockingConnection`. See https://www.rabbitmq.com/direct-reply-to.html for more info about this feature.
+
+这里例子演示了 `pika.BlockingConnection` 直接回复的功能，更多的关于这方面的例子可以看 https://www.rabbitmq.com/direct-reply-to.html 。
 
 direct_reply_to.py::
 
@@ -10,6 +14,8 @@ direct_reply_to.py::
     This example demonstrates the RabbitMQ "Direct reply-to" usage via
     `pika.BlockingConnection`. See https://www.rabbitmq.com/direct-reply-to.html
     for more info about this feature.
+
+    这里例子演示了 `pika.BlockingConnection` 直接回复的功能，更多的关于这方面的例子可以看 https://www.rabbitmq.com/direct-reply-to.html 。
     """
     import pika
 
