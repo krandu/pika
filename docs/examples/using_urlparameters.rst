@@ -1,7 +1,10 @@
 Using URLParameters
 ===================
+使用URL参数
+===================
 Pika has two methods of encapsulating the data that lets it know how to connect
 to RabbitMQ, :py:class:`pika.connection.ConnectionParameters` and :py:class:`pika.connection.URLParameters`.
+
 
 .. note::
     If you're connecting to RabbitMQ on localhost on port 5672, with the default virtual host of */* and the default username and password of *guest* and *guest*, you do not need to specify connection parameters when connecting.
